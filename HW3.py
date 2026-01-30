@@ -1,7 +1,7 @@
-# Name:
-# Student ID:
-# Email:
-# Who or what you worked with on this homework (including generative AI like ChatGPT):
+# Name: Tiffany Phoebe Sudijono
+# Student ID: 53069112
+# Email: tsudijon@umich.edu
+# Who or what you worked with on this homework (including generative AI like ChatGPT): I worked on this homework independently, and did not use any form of Gen AI to complete the assignment.
 # If you worked with generative AI also add a statement for how you used it.
 # e.g.:
 # Asked ChatGPT hints for debugging and suggesting the general structure of the code
@@ -33,7 +33,9 @@ class CouponDispenser:
             coupon_cards (list[str]): list of possible coupons users can receive.
         """
         # TODO: Implement per instructions
-        pass
+        self.coupon_cards = coupon_cards
+        self.customer_roster = []
+        self.issued_indices = []
 
     def __str__(self):
         """
