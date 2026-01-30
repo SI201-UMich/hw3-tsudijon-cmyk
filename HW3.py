@@ -166,18 +166,7 @@ def main():
         "10% off",
         "Free small coffee",
         "Buy 1 get 1 half off",
-        "Free extra espresso shot",
-    ]
-
-    # Uncomment the lines below as you implement each function.
-    # box = CouponDispenser(coupon_cards)
-    # box.distribute_session()
-    # box.tally_distribution()
-    coupon_cards = [
-        "10% off",
-        "Free small coffee",
-        "Buy 1 get 1 half off",
-        "Free extra espresso shot",
+        "Free extra espresso shot"
     ]
 
     box = CouponDispenser(coupon_cards)
@@ -461,5 +450,4 @@ def test():
 
 
 if __name__ == "__main__":
-    main()
-    # test()
+    test()
